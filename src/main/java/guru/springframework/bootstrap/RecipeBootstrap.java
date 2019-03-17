@@ -127,6 +127,7 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
                 "\n" +
                 "Read more: http://www.simplyrecipes.com/recipes/perfect_guacamole/#ixzz4jvoun5ws");
 
+        // needed for bidirectional - should be one method call
         guacamoleNotes.setRecipe(guacRecipe);
         guacRecipe.setNotes(guacamoleNotes);
 
